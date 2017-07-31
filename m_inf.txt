@@ -1,0 +1,15 @@
+Esse e um modulo para criacao de menus para o UPhp.
+Antes de mais nada precisamos lhe informar que teremos
+que criar algumas tabelas em seu banco de dados default,
+sao elas:
+
+- Abas
+- Modulos
+- Menus
+- Conjuntos
+- Categorias
+
+Cada uma dessas tabelas serao criadas com o prefixo PROTAGONIST.
+
+Voce permite que os scripts de inicializacao
+sejam executados? [Y/n]:

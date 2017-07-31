@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b124841c8a68dc73b948d860208f5ccc",
+    "packages": [
+        {
+            "name": "uphp/exception",
+            "version": "v0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uphp/exception.git",
+                "reference": "2d20781b8b6c5afaecd8ca8367e20f9e2ea89158"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uphp/exception/zipball/2d20781b8b6c5afaecd8ca8367e20f9e2ea89158",
+                "reference": "2d20781b8b6c5afaecd8ca8367e20f9e2ea89158",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/UphpException.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Diego Bentes",
+                    "email": "diegopbentes@gmail.com"
+                }
+            ],
+            "description": "Este pacote serve para adicionar UphpException ao uphp",
+            "time": "2017-07-04T21:36:16+00:00"
+        },
+        {
+            "name": "uphp/languages",
+            "version": "v0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uphp/languages.git",
+                "reference": "2f17199987f5dc8595fc95b4460f9c0b16e865dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uphp/languages/zipball/2f17199987f5dc8595fc95b4460f9c0b16e865dc",
+                "reference": "2f17199987f5dc8595fc95b4460f9c0b16e865dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "uphp/exception": ">0.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UPhp\\Languages\\": "src/",
+                    "UPhp\\Languages\\Exception\\": "exceptions/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Diego Bentes",
+                    "email": "diegopbentes@gmail.com"
+                }
+            ],
+            "description": "Pacote de definição dos idiomas para aplicacao",
+            "time": "2017-07-17T22:03:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}
