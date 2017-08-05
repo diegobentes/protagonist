@@ -16,5 +16,6 @@
             "Protagonist\\Models\\": "src/models/",
             "Protagonist\\Controllers\\": "src/controllers/"
         }
-    }
+    },
+    "minimum-stability": "dev"
  }
