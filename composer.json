@@ -13,6 +13,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Protagonist\\Module\\": "module/",
             "Protagonist\\Models\\": "src/models/",
             "Protagonist\\Controllers\\": "src/controllers/"
         }
